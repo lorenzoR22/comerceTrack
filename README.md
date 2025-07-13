@@ -15,7 +15,7 @@
 
 ---
 
-## 🧠 ¿Qué hace este proyecto?
+## 🧠 Funciones principales
 
 ### 📦 Carga de productos (Spring Batch)
 - Lee archivos `.csv` con productos.
