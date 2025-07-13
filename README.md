@@ -1,6 +1,6 @@
 # 🧾 ComerceTrack - Carga de Productos y Generación de Facturas con Spring Batch
 
-**ComerceTrack** es una aplicación backend construida con **Java y Spring Boot**, que utiliza **Spring Batch** para automatizar la carga masiva de productos desde archivos CSV y la posterior **generación de facturas en PDF** a partir de los datos almacenados en base de datos.
+**ComerceTrack** es una aplicación de gestion de productos y generacion de facturas construida con **Java y Spring Boot**, que utiliza **Spring Batch** para automatizar la carga masiva de productos desde archivos CSV y la posterior **generación de facturas en PDF** a partir de los datos almacenados en base de datos.
 
 ---
 
