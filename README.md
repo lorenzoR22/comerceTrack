@@ -25,7 +25,7 @@
 - Soporta carga masiva de catálogos/inventarios.
 
 ### 📄 Generación de facturas en PDF
-- A partir de los productos guardados en la base de datos:
+- A partir de las ventas guardadas en la base de datos:
   - Se recuperan los datos con Spring Data JPA.
   - Se genera una **factura en PDF**.
   - Se ejecuta de forma programada (`@Scheduled`).
