@@ -31,3 +31,46 @@
   - Se ejecuta de forma programada (`@Scheduled`).
 
 ---
+## ⚙️ Configuración del proyecto (Clonación y ejecución)
+
+1. Clonar el repositorio y entrar a la carpeta:
+
+```bash
+git clone https://github.com/lorenzoR22/comerceTrack.git
+cd comerceTrack
+```
+
+2. Configurar las variables de entorno:
+
+Opción A: Usar archivo .env
+```bash
+cp .env.example .env
+```
+Editar .env y completar con tus datos:
+```bash
+DB_HOST=localhost
+DB_PORT=3306
+DB_NAME=comercetrack
+DB_USER=tu_usuario
+DB_PASSWORD=tu_contraseña
+```
+Opción B: Usar directamente application.properties
+
+Editar src/main/resources/application.properties con:
+```bash
+spring.datasource.url=jdbc:mysql://localhost:3306/comercetrack
+spring.datasource.username=tu_usuario
+spring.datasource.password=tu_contraseña
+spring.jpa.hibernate.ddl-auto=update
+```
+3. Levantar la base de datos con Docker:
+```bash
+docker-compose up -d
+```
+Esto levantará un contenedor MySQL en el puerto 3306.
+
+4. Ejecutar la aplicación:
+```bash
+./mvnw spring-boot:run
+```
+Recordá que necesitás Java 17+ y Maven (o usar el wrapper).
