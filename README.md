@@ -28,6 +28,6 @@
 - A partir de los productos guardados en la base de datos:
   - Se recuperan los datos con Spring Data JPA.
   - Se genera una **factura en PDF**.
-  - Puede ejecutarse de forma programada (`@Scheduled`) o manual.
+  - Se ejecuta de forma programada (`@Scheduled`).
 
 ---
